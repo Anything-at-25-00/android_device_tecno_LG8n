@@ -157,6 +157,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := LG8n,TECNO-LG8n
 
+# Selinux
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
+
 # Vendor Security Patch
 VENDOR_SECURITY_PATCH := 2023-11-05
 
