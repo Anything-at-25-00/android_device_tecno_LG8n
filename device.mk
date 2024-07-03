@@ -259,6 +259,10 @@ PRODUCT_PACKAGES += \
     android.hardware.security.sharedsecret-V1-ndk_platform.vendor \
     libcppbor_external.vendor:64
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-V1-ndk.vendor
