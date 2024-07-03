@@ -5,3 +5,4 @@ allow mtk_hal_sensors sysfs_dt_firmware_android:file { open read getattr };
 allow mtk_hal_sensors nvdata_file:dir { read open search};
 allow mtk_hal_sensors nvdata_file:file { getattr read write open };
 allow mtk_hal_sensors nvram_device:blk_file { read write open };
+allow mtk_hal_sensors hf_manager_device:chr_file { ioctl read write getattr lock append map open watch watch_reads };

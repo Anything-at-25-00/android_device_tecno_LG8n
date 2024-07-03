@@ -20,6 +20,9 @@
 # Health
 /(vendor|system\/vendor)/bin/hw/android\.hardware\.health@2\.1-service         u:object_r:hal_health_default_exec:s0
 
+# HF Manager
+/dev/hf_manager(/.*)?                                                                       u:object_r:hf_manager_device:s0
+
 # NFC
 /dev/pn54x                                                                                  u:object_r:nfc_device:s0
 /dev/pn553                                                                                  u:object_r:nfc_device:s0
@@ -30,6 +33,9 @@
 
 # Sensor stuff
 /(vendor|system\/vendor)/bin/hw/android\.hardware\.sensors@[0-9]\.[0-9]-service(\.multihal)?  u:object_r:hal_sensors_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@1\.0-service-mediatek             u:object_r:mtk_hal_sensors_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@2\.0-service-mediatek             u:object_r:mtk_hal_sensors_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@2\.0-service\.multihal-mediatek   u:object_r:mtk_hal_sensors_exec:s0
 
 # Trancam
 /(system\/vendor|vendor)/bin/hw/vendor\.transsion\.hardware\.trancam\.trancamserver@1\.0-service     u:object_r:trancamserver_exec:s0
