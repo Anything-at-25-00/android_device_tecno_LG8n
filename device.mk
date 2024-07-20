@@ -62,11 +62,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libaudiofoundation.vendor \
+    libaudioroute.vendor \
     libalsautils \
     libnbaio_mono \
     libtinycompress \
     libdynproc \
-    libhapticgenerator
+    libhapticgenerator \
+    libprocessgroup.vendor
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
@@ -100,6 +102,8 @@ PRODUCT_PACKAGES += \
     libshim_camera_metadata \
     libdng_sdk.vendor \
     libexpat.vendor \
+    libexif.vendor \
+    libpiex \
     libpng.vendor
 
 # CAS
@@ -183,7 +187,9 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-V1-ndk.vendor
 
 PRODUCT_PACKAGES += \
-    libcurl.vendor
+    libcurl.vendor \
+    libjsoncpp.vendor \
+    libsqlite.vendor
 
 # Health
 PRODUCT_PACKAGES += \
@@ -476,6 +482,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3.vendor \
     android.hardware.usb.gadget@1.1.vendor
+
+# Required for QPR3
+PRODUCT_PACKAGES += \
+    libdumpstateutil.vendor
 
 # VNDK
 PRODUCT_COPY_FILES += \
