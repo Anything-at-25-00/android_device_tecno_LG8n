@@ -126,7 +126,7 @@ function blob_fixup {
             "${PATCHELF}" --add-needed "libshim_sensors.so" "${2}"
             ;;
         lib64/libsource.so)
-            grep -q libui_shim.so "$2" || "$PATCHELF" --add-needed libui_shim.so "$2"
+            grep -q libshim_ui.so "$2" || "$PATCHELF" --add-needed libshim_ui.so "$2"
             ;;
     esac
 }
