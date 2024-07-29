@@ -466,11 +466,11 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/mediatek \
-    hardware/mediatek/libmtkperf_client \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/google/interfaces \
     hardware/google/pixel \
+    hardware/mediatek \
+    hardware/mediatek/libmtkperf_client \
     hardware/transsion
 
 # Thermal
