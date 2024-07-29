@@ -343,12 +343,11 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
-	FrameworksResOverlay \
-	SettingsResOverlay \
-	SettingsProviderOverlayLG8n \
-	SystemUIOverlay \
-	WifiResOverlayLG8n \
-	TelephonyOverlay
+	FrameworksResOverlayLG8n \
+	SettingsResOverlayLG8n \
+	SystemUIOverlayLG8n \
+	TelephonyOverlayLG8n \
+	WifiResOverlayLG8n
 
 # Lineage-Specific Overlays
 PRODUCT_PACKAGES += \

@@ -11,8 +11,8 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.settingsres.overlay">
+    package="com.android.systemui.lg8n.overlay">
 
     <application android:hasCode="false" />
-    <overlay android:targetPackage="com.android.settings" android:isStatic="true" android:priority="2" />
+    <overlay android:targetPackage="com.android.systemui" android:isStatic="true" android:priority="1" />
 </manifest>

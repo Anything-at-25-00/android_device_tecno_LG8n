@@ -1,11 +1,11 @@
 //
-// Copyright (C) 2023 The LineageOS Project
+// Copyright (C) 2023 LineageOS
 //
 // SPDX-License-Identifier: Apache-2.0
 //
 
 runtime_resource_overlay {
-    name: "TelephonyOverlay",
+    name: "SettingsResOverlayLG8n",
     sdk_version: "current",
     product_specific: true,
     resource_dirs: ["res"]

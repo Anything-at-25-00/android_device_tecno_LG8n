@@ -5,7 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsResOverlay",
+    name: "SystemUIOverlayLG8n",
     sdk_version: "current",
     product_specific: true,
     resource_dirs: ["res"]
