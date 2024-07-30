@@ -104,7 +104,7 @@ function blob_fixup {
             ;;
         vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
-            grep -q libcamera_metadata_shim.so "${2}" || "${PATCHELF}" --add-needed libcamera_metadata_shim.so "${2}"
+            grep -q libshim_camera_metadata.so "${2}" || "${PATCHELF}" --add-needed libshim_camera_metadata.so "${2}"
             ;;
         vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service | vendor/lib64/android.hardware.power-service-mediatek.so)
         "${PATCHELF}" --replace-needed "android.hardware.power-V2-ndk_platform.so" "android.hardware.power-V2-ndk.so" "$2"
