@@ -125,7 +125,7 @@ function blob_fixup {
         vendor/lib64/mt6789/libcam.utils.sensorprovider.so)
             "${PATCHELF}" --add-needed "libshim_sensors.so" "${2}"
             ;;
-        lib64/libsource.so)
+        lib64/libsource.so | bin/vtservice )
             grep -q libshim_ui.so "$2" || "$PATCHELF" --add-needed libshim_ui.so "$2"
             ;;
     esac
