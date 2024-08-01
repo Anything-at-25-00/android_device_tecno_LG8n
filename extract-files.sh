@@ -77,7 +77,7 @@ function blob_fixup {
             "${PATCHELF}" --replace-needed "libbinder.so" "libbinder-v31.so" "${2}"
             "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v31.so" "${2}"
             ;;
-        lib64/libsink.so)
+        system_ext/lib64/libsink.so)
             "${PATCHELF}" --add-needed "libshim_sink.so" "${2}"
             ;;
         vendor/bin/hw/android.hardware.gnss-service.mediatek |\
@@ -125,7 +125,7 @@ function blob_fixup {
         vendor/lib64/mt6789/libcam.utils.sensorprovider.so)
             "${PATCHELF}" --add-needed "libshim_sensors.so" "${2}"
             ;;
-        lib64/libsource.so | bin/vtservice )
+        system_ext/lib64/libsource.so | system_ext/bin/vtservice )
             grep -q libshim_ui.so "$2" || "$PATCHELF" --add-needed libshim_ui.so "$2"
             ;;
     esac
