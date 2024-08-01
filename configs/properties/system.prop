@@ -22,6 +22,9 @@ vendor.camera.tran.nums=1
 # Charger
 ro.charger.enable_suspend=true
 
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
+
 # Dexopt
 dalvik.vm.dex2oat64.enabled=true
 pm.dexopt.install=speed-profile
@@ -39,6 +42,9 @@ dalvik.vm.image-dex2oat-threads=6
 # Disable blur on app launch
 ro.launcher.blur.appLaunch=1
 
+# Disable mtk aggressive_dex2oat
+pm.dexopt.aggressive_dex2oat.enable=false
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
@@ -53,6 +59,10 @@ debug.stagefright.c2inputsurface=-1
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mtk_thumbnail_optimization=true
 ro.vendor.mtk_flv_playback_support=1
+
+# Memory Optimization
+ro.config.dha_cached_min=16
+ro.config.dha_cached_max=32
 
 # MTK vendor
 ro.vendor.mtk_omacp_support=1
@@ -88,6 +98,14 @@ ro.mot.eri.losalert.delay=100
 ro.vendor.use_data_netmgrd=true
 ro.vold.umsdirtyratio=20
 power.saving.mode=1
+
+# Thermal Management
+ro.mtk_thermal_monitor.enabled=true
+persist.thermal_config.mitigation=1
+
+# Thermal Configuration
+ro.config.thermal_limit=75
+ro.config.thermal_dcs=40
 
 # USB
 ro.sys.usb.bicr=no
