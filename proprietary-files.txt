@@ -2373,36 +2373,44 @@ vendor/lib64/mt6789/libmnl.so
 vendor/lib64/librpc.so
 vendor/lib64/libviagpsrpc.so
 
-# IMS
-bin/vtservice
-etc/init/init.vtservice.rc
+# IMS - (Video Telephony) - from INFINIX-U-64-ARMV82-240620V2105
+-system_ext/bin/vtservice|eeb08595c53be9d7a69ba5b677b5604f753eab37
+system_ext/etc/init/init.vtservice.rc|50a2249906edc06059b443513db47a2ddc0490dc
+-system_ext/lib64/libcomutils.so|fae6b5fd7628518eaf3e3eadac2133dd83f30839
+-system_ext/lib64/libimsma.so|fe5785814579f46510994ebb33fad3ba4e52e35e
+-system_ext/lib64/libimsma_adapt.so|87682d1ecd12331841ce3b9f6eb04822a6725488
+-system_ext/lib64/libimsma_rtp.so|25b249764ba9df7d89f3af209f38e4cb4993ddb3
+-system_ext/lib64/libimsma_socketwrapper.so|5a26aae9eee36b9e5dc8875aa68b20ced2e1b676
+-system_ext/lib64/libmtk_vt_service.so|41a319d022d4554d377d6afef827c48169309809
+-system_ext/lib64/libmtk_vt_wrapper.so|377aeeb6869d790b6ad655ec253ca0b503ddc8b8
+-system_ext/lib64/libsignal.so|5595f5d7b6e7320572ec05ac199f951d141b516a
+-system_ext/lib64/libsink.so|a9f0224649a16b304d2cc632cfa22794a2e8133e
+-system_ext/lib64/libsource.so|a7b4a1d1c40b7ff9ca9b7b5e86e75ae840c1268d
+-system_ext/lib64/libvcodec_cap.so|2381985122bad7abdc287f477139b39731a1b218
+-system_ext/lib64/libvcodec_capenc.so|2a9dd2edc46a17f402f342f09035ba5c25bb7ea2
+-system_ext/lib64/libvt_avsync.so|186a5263b1be36e3f5ba47c0e8b40bca48a6b382
+-system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so|d12f0aef8da477595468df3cebb5fa4f0a8770be
+-system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so;MODULE=vendor.mediatek.hardware.videotelephony@1.0.system_ext|cdd9da0a0896031fd034069566bc80c332cdc9c1
+-vendor/bin/hw/vtservice_hidl|047b26f80b338b7d0869840d243eefebe82d56f5
+vendor/etc/init/init.vtservice_hidl.rc|f2e992214ed5bb99c2c2a135cf1f0996dba8a8a0
+-vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so|bb9ff554802e7bffb72cf24604109dafcf0019fc
+-vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|5e228669d2c575e38fc02a13404f31bc22494b87
+
+# IMS - Packages
 -framework/mediatek-common.jar
 -framework/mediatek-framework.jar
 -framework/mediatek-ims-base.jar
 -framework/mediatek-ims-common.jar
--framework/mediatek-ims-extension-plugin.jar
+framework/mediatek-ims-extension-plugin.jar
+framework/mediatek-ims-legacy.jar
 -framework/mediatek-telecom-common.jar
 -framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
--framework/mediatek-wfo-legacy.jar
-lib64/libcomutils.so
-lib64/libimsma.so
-lib64/libimsma_adapt.so
-lib64/libimsma_rtp.so
-lib64/libimsma_socketwrapper.so
-lib64/libmtk_vt_service.so
-lib64/libmtk_vt_wrapper.so
-lib64/libmtkperf_client.so
-lib64/libsignal.so
-lib64/libsink.so
-lib64/libsource.so
-lib64/libvcodec_cap.so
-lib64/libvcodec_capenc.so
-lib64/libvsim-adaptor-client.so
-lib64/libvt_avsync.so
--priv-app/ImsService/ImsService.apk
-system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# IMS - Patched
+-framework/mediatek-telephony-base.jar|d0f18c1c0fc4894fe31b0148cbf33387a1b0bf3d
+-priv-app/ImsService/ImsService.apk|88156caa5a726af075035a88624d8bf20d1b2448
+
 vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
 vendor/bin/hw/vtservice_hidl
 vendor/bin/ipsec_mon
