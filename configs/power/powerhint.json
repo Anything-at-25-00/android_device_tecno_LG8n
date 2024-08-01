@@ -190,8 +190,8 @@
       "Name": "DoubleTapToWake",
       "Path": "/proc/gesture_function",
       "Values": [
-        "0",
-        "1"
+       "cc0",
+       "cc1"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
