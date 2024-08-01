@@ -148,6 +148,7 @@ TARGET_TAP_TO_WAKE_NODE :=
 # Properties
 TARGET_SYSTEM_PROP += $(CONFIGS_PATH)/properties/system.prop
 TARGET_VENDOR_PROP += $(CONFIGS_PATH)/properties/vendor.prop
+TARGET_PRODUCT_PROP += $(CONFIGS_PATH)/properties/product.prop
 
 # Recovery
 BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
