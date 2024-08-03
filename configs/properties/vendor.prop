@@ -336,8 +336,11 @@ ro.vendor.wifi.sap.interface=ap0
 ro.vendor.wlan.chrdev=wmt_chrdev_wifi
 ro.vendor.wlan.gen=gen4m_6789
 
-# Misc
+# Boostfwk
 vendor.boostfwk.fling_distance_dp=20
 vendor.boostfwk.aosp_move=1
 vendor.boostfwk.launcher_use_interaction=1
 vendor.boostfwk.aosp_fling=1
+
+# IncrementalFS
+ro.incremental.enable=yes
