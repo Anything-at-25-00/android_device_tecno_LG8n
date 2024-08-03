@@ -2625,14 +2625,10 @@ vendor/lib64/libvcodecdrv_header_stub.so
 
 # Misc and Potentially Requred Blobs
 vendor/bin/hw/vendor.mediatek.hardware.tranHwInfo@1.0-service
-vendor/bin/fpsgo
-vendor/bin/gbe
 vendor/bin/md_monitor
 vendor/bin/meta_tst
 vendor/bin/mt6660_calibration
 vendor/bin/rt5512_calibration
-vendor/etc/init/fpsgo.rc
-vendor/etc/init/gbe.rc
 vendor/etc/init/init.otg.rc
 vendor/etc/init/md_monitor.rc
 vendor/etc/init/vendor.mediatek.hardware.tranHwInfo@1.0-service.rc
