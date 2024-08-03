@@ -29,9 +29,6 @@ vendor/lib/hw/audio.r_submix.mediatek.so
 vendor/lib/hw/awinic.audio.effect.so
 vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/soundfx/libaudiopreprocessing_mtk.so
-vendor/lib/audio_common-aidl-cpp.so
-vendor/lib/audio_common-aidl-cpp.so
-vendor/lib/audioclient-types-aidl-cpp.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
@@ -74,8 +71,6 @@ vendor/lib64/hw/audio.primary.mediatek.so
 vendor/lib64/hw/audio.r_submix.mediatek.so
 vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/lib64/soundfx/libaudiopreprocessing_mtk.so
-vendor/lib64/audio_common-aidl-cpp.so
-vendor/lib64/audioclient-types-aidl-cpp.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
@@ -1272,8 +1267,6 @@ vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libksensor.so
 vendor/lib64/libmegface.so
-vendor/lib64/libprotobuf-cpp-full-3.9.1.so
-vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib64/librgbwlightsensor.so
 vendor/lib64/libtflite_mtk.so
 vendor/lib64/libtranlog.so
@@ -2654,8 +2647,6 @@ vendor/lib/libmmprofile.so
 vendor/lib/libmtk_bsg.so
 vendor/lib/libmtkhardware_legacy.so
 vendor/lib/libpixelflinger.so
-vendor/lib/libprotobuf-cpp-full-3.9.1.so
-vendor/lib/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib64/mt6789/libmtk_drvb.so
@@ -2680,8 +2671,6 @@ vendor/lib64/libmtkhardware_legacy.so
 vendor/lib64/libmtkisp_metadata.so
 vendor/lib64/libmtkisp_metadata_v2.so
 vendor/lib64/libpixelflinger.so
-vendor/lib64/libprotobuf-cpp-full-3.9.1.so
-vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib64/libtranlog.so
 vendor/lib64/libwo.so
 vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
