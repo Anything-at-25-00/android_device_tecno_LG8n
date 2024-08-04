@@ -345,8 +345,9 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
 	FrameworksResOverlay \
 	SettingsResOverlay \
-	SettingsProviderOverlayLG8n
+	SettingsProviderOverlayLG8n \
 	SystemUIOverlay \
+	WifiResOverlayLG8n \
 	TelephonyOverlay
 
 # Lineage-Specific Overlays
