@@ -2635,10 +2635,14 @@ vendor/lib64/libvcodecdrv_header_stub.so
 
 # Misc and Potentially Requred Blobs
 vendor/bin/hw/vendor.mediatek.hardware.tranHwInfo@1.0-service
+vendor/bin/fpsgo
+vendor/bin/gbe
 vendor/bin/md_monitor
 vendor/bin/meta_tst
 vendor/bin/mt6660_calibration
 vendor/bin/rt5512_calibration
+vendor/etc/init/fpsgo.rc
+vendor/etc/init/gbe.rc
 vendor/etc/init/init.otg.rc
 vendor/etc/init/md_monitor.rc
 vendor/etc/init/vendor.mediatek.hardware.tranHwInfo@1.0-service.rc
@@ -2776,11 +2780,28 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
 # Power
+vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
 vendor/etc/init/bootperf.rc
 vendor/etc/init/init.fpsgo.rc
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
+-vendor/etc/vintf/manifest/power-default.xml:vendor/etc/vintf/manifest/power-mtk.xml
+vendor/lib/hw/power.default.so:vendor/lib/hw/power.mt6789.so
+vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
+vendor/lib/libperfctl_vendor.so
 vendor/lib/libpower_timer.so
+vendor/lib/libpowerhal.so
+vendor/lib/libpowerhalwrap_vendor.so
+vendor/lib/libmtkperf_client_vendor.so
 vendor/lib/vendor.mediatek.hardware.power@2.0.so
+vendor/lib64/hw/power.default.so:vendor/lib64/hw/power.mt6789.so
+vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
+vendor/lib64/android.hardware.power-service-mediatek.so
+vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpower_timer.so
+vendor/lib64/libpowerhal.so
+vendor/lib64/libpowerhalwrap_vendor.so
+vendor/lib64/libmtkperf_client_vendor.so
 vendor/lib64/libtranlog.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 
