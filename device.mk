@@ -344,6 +344,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
 	FrameworksResOverlayLG8n \
+	SettingsProviderOverlayLG8n \
 	SettingsResOverlayLG8n \
 	SystemUIOverlayLG8n \
 	TelephonyOverlayLG8n \
