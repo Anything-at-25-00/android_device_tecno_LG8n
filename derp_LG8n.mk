@@ -7,6 +7,7 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from device makefile.
 $(call inherit-product, device/tecno/LG8n/device.mk)
@@ -24,6 +25,8 @@ PRODUCT_MODEL := TECNO LG8n
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_PICO_GAPPS := true
+PRODUCT_NO_CAMERA := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=LG8n-GL
