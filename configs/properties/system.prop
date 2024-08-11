@@ -25,13 +25,17 @@ ro.charger.enable_suspend=true
 # Cached app compaction
 persist.device_config.activity_manager.use_compaction=true
 
-# Dexopt
-dalvik.vm.dex2oat64.enabled=true
+# Dex / Dalvik
+persist.device_config.runtime_native.usap_pool_enabled=false
+persist.sys.minfree_6g=73728,92160,110592,340000,1282868,1677312
+persist.sys.minfree_8g=73728,92160,110592,340000,1677312,2064384
+persist.sys.minfree_def=73728,92160,110592,340000,510000,645120
 pm.dexopt.install=speed-profile
 pm.dexopt.bg-dexopt=speed-profile
 pm.dexopt.boot=verify
 pm.dexopt.first-boot=verify
 pm.dexopt.ab-ota=speed-profile
+dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
 dalvik.vm.dex2oat-threads=6
 dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5
@@ -39,11 +43,28 @@ dalvik.vm.boot-dex2oat-threads=6
 dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5
 dalvik.vm.image-dex2oat-threads=6
 
+# Display / Fingerprint
+ro.hardware.fp.sideCap=true
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+# Graphics
+debug.sf.enable_transaction_tracing=false
+debug.sf.latch_unsignaled=true
+debug.sf.predict_hwc_composition_strategy=0
+
 # Disable blur on app launch
 ro.launcher.blur.appLaunch=1
 
 # Disable mtk aggressive_dex2oat
 pm.dexopt.aggressive_dex2oat.enable=false
+
+# Iorapd
+ro.iorapd.enable=false
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
 # IMS
 persist.dbg.volte_avail_ovr=1
@@ -52,7 +73,6 @@ persist.dbg.wfc_avail_ovr=1
 
 # Kernel
 ro.kernel.zio=38,108,105,16
-ro.iorapd.enable=false
 
 # Media
 debug.stagefright.c2inputsurface=-1
