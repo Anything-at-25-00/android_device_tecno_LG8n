@@ -45,7 +45,7 @@ prebuilt_etc {
 cc_binary {
     name: "shirayuki-dt2w",
     srcs: [
-        "shirayuki-dt2w",
+        "shirayuki-dt2w.c",
     ],
     vendor: true
 }
