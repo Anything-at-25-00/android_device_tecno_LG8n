@@ -102,3 +102,12 @@ on property:sys.boot_completed=1
     write /sys/kernel/tracing/instances/mmstat/events/mmstat/enable 1
     write /sys/kernel/tracing/instances/mmstat/tracing_on 1
 
+service gesture_service_sh /vendor/bin/init.gesture.sh
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+   start gesture_service_sh
