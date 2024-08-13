@@ -1,3 +1,5 @@
+#!/vendor/bin/sh
+
 # Enable DT2W
 while [[ -z $(getprop sys.boot_completed) ]]; do sleep 5; done
 
