@@ -240,6 +240,7 @@ PRODUCT_PACKAGES += \
     init.cgroup.rc \
     init.connectivity.common.rc \
     init.connectivity.rc \
+    init.gesture.sh \
     init.insmod.sh \
     init.insmod.mt6789.cfg \
     init.modem.rc \
