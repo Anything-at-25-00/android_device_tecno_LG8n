@@ -4,10 +4,10 @@
 while [[ -z $(getprop sys.boot_completed) ]]; do sleep 5; done
 
 while true; do
-   dt2wstate=$(settings get secure double_tap_to_wake)
-   if [ "$dt2wstate" == "0" ]; then
+   dt2w_state=$(getprop persist.sys.MT6789.dt2w)
+   if [ "$dt2w_state" == "0" ]; then
       echo cc2 > /proc/gesture_function
-   elif [ "$dt2wstate" == "1" ]; then
+   elif [ "$dt2w_state" == "1" ]; then
       echo cc1 > /proc/gesture_function
    fi
    sleep 1
