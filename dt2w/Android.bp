@@ -30,7 +30,8 @@ android_app {
     },
 
     required: [
-        "privapp-permissions_co.potatoproject.dt2w.MT6789"
+        "privapp-permissions_co.potatoproject.dt2w.MT6789",
+        "shirayuki-dt2w"
     ]
 }
 
@@ -39,4 +40,12 @@ prebuilt_etc {
     sub_dir: "permissions",
     src: "privapp-permissions_co.potatoproject.dt2w.MT6789.xml",
     filename_from_src: true,
+}
+
+cc_binary {
+    name: "shirayuki-dt2w",
+    srcs: [
+        "shirayuki-dt2w",
+    ],
+    vendor: true
 }
