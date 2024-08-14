@@ -10,11 +10,11 @@
 #include <sys/ioctl.h>
 
 namespace aidl {
-namespace android {
+namespace google {
 namespace hardware {
 namespace power {
 namespace impl {
-namespace mediatek {
+namespace pixel {
 
 using ::aidl::android::hardware::power::Mode;
 
@@ -39,9 +39,9 @@ bool setDeviceSpecificMode(Mode type, bool enabled) {
     }
 }
 
-}  // namespace mediatek
+}  // namespace pixel
 }  // namespace impl
 }  // namespace power
 }  // namespace hardware
-}  // namespace android
+}  // namespace google
 }  // namespace aidl
