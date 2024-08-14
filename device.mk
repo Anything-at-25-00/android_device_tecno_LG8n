@@ -151,10 +151,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor
 
-# DT2W
-PRODUCT_PACKAGES += \
-    DT2W-Service-MT6789
-
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
