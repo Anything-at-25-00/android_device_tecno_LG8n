@@ -18,6 +18,8 @@ namespace pixel {
 
 using ::aidl::android::hardware::power::Mode;
 
+const std::string TAP_TO_WAKE_NODE = "/proc/gesture_function";
+
 bool isDeviceSpecificModeSupported(Mode type, bool* _aidl_return) {
     switch (type) {
         case Mode::DOUBLE_TAP_TO_WAKE:
