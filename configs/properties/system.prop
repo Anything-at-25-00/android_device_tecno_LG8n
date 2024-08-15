@@ -51,7 +51,6 @@ persist.sys.fuse.passthrough.enable=true
 
 # Graphics
 debug.sf.enable_transaction_tracing=false
-debug.sf.latch_unsignaled=true
 debug.sf.predict_hwc_composition_strategy=0
 
 # Disable blur on app launch
