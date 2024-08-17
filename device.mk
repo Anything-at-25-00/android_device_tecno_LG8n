@@ -350,9 +350,9 @@ PRODUCT_PACKAGES += \
 	TelephonyOverlayLG8n \
 	WifiResOverlayLG8n
 
-# Lineage-Specific Overlays
+# DerpFest-Specific Overlays
 PRODUCT_PACKAGES += \
-	ApertureOverlay
+	FlashOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \

@@ -4,7 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "ApertureOverlay",
+    name: "FlashOverlay",
     sdk_version: "current",
     product_specific: true,
     resource_dirs: ["res"]
