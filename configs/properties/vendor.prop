@@ -181,7 +181,6 @@ debug.sf.frame_rate_multiple_threshold=90
 debug.sf.auto_latch_unsignaled=0
 debug.sf.enable_hwc_vds=0
 
-
 # DRM
 drm.service.enabled=true
 
@@ -270,6 +269,7 @@ ro.lmk.swap_free_low_percentage=20
 ro.lmk.swap_util_max=90
 ro.lmk.thrashing_limit=25
 ro.lmk.thrashing_limit_decay=50
+ro.lmk.debug=false
 
 # Media
 ro.vendor.mtk.c2.vdec.fmt.support.level=1
