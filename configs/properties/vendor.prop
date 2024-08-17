@@ -291,15 +291,6 @@ ro.vendor.mediatek.version.release=alps-mp-s0.mp1.rc-V14.2.1_reallytek.s0mp1rc.k
 # HWUI
 ro.hwui.render_ahead=20
 
-# Low Memory Killer
-ro.lmk.kill_heaviest_task=true
-ro.lmk.psi_complete_stall_ms=150
-ro.lmk.swap_free_low_percentage=20
-ro.lmk.thrashing_limit=30
-ro.lmk.thrashing_limit_decay=50
-ro.lmk.swap_util_max=90
-ro.lmk.kill_timeout_ms=100
-
 # Stock Stuffs
 ro.vendor.rc=/vendor/etc/init/hw/
 # MTK Stuff
