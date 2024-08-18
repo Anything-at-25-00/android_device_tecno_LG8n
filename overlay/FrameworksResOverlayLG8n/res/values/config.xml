@@ -229,10 +229,6 @@
          provisioning, availability etc -->
     <bool name="config_carrier_volte_available">true</bool>
 
-    <!-- List of comma separated package names for which we the system will not show crash like
-         tts, etc. dialogs. -->
-    <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
-
     <!-- Flag specifying whether VoLTE TTY is supported -->
     <bool name="config_carrier_volte_tty_supported">true</bool>
 
@@ -301,18 +297,6 @@
     <!-- List of comma separated package names for which we the system will not show crash like
          tts, etc. dialogs. -->
     <string name="config_appsNotReportingCrashes">com.google.android.tts</string>   
-
-    <!-- Set this to true to enable the platform's auto-power-save modes like doze and
-     app standby.  These are not enabled by default because they require a standard
-     cloud-to-device messaging service for apps to interact correctly with the modes
-     (such as to be able to deliver an instant message to the device even when it is
-     dozing).  This should be enabled if you have such services and expect apps to
-     correctly use them when installed on your device.  Otherwise, keep this disabled
-     so that applications can still use their own mechanisms. -->
-    <bool name="config_enableAutoPowerModes">true</bool>
-
-    <!-- True if the device supports Sustained Performance Mode -->
-    <bool name="config_sustainedPerformanceModeSupported">true</bool>
 
    <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
