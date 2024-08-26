@@ -25,7 +25,7 @@
   },
   {
     "remote"      : "github",
-    "repository"  : "roms-experimental/hardware_transsion",
+    "repository"  : "Anything-at-25-00/hardware_transsion",
     "branch"      : "lineage-20.0",
     "target_path" : "hardware/transsion"
   }
