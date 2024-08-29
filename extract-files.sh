@@ -59,9 +59,6 @@ function blob_fixup {
         vendor/lib*/mediadrm/libwvdrmengine.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
             ;;
-        vendor/bin/hw/android.hardware.lights-service.mediatek)
-            "$PATCHELF" --replace-needed "android.hardware.light-V1-ndk_platform.so" "android.hardware.light-V1-ndk.so" "${2}"
-            ;;
         vendor/lib*/libspeech_enh_lib.so|\
         vendor/lib64/libwifi-hal-mtk.so|\
         vendor/lib*/hw/power.mt6789.so|\

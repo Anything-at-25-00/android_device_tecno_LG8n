@@ -1888,11 +1888,6 @@ vendor/etc/init/android.hardware.security.keymint-service.trustonic.rc
 -vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.trustonic.xml
 -vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustonic.xml
 
-# Lights
-vendor/bin/hw/android.hardware.lights-service.mediatek
-vendor/etc/init/lights-mtk-default.rc
-vendor/etc/vintf/manifest/lights-mtk-default.xml
-
 # Media
 vendor/bin/mt6789/v3avpud.mt6789
 vendor/bin/vpud

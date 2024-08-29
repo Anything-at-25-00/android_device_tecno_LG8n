@@ -285,7 +285,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light-V1-ndk.vendor
+    android.hardware.lights-service.transsion
 
 # Media
 PRODUCT_PACKAGES += \
