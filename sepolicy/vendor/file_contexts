@@ -22,6 +22,9 @@
 # Health
 /(vendor|system\/vendor)/bin/hw/android\.hardware\.health@2\.1-service         u:object_r:hal_health_default_exec:s0
 
+# Lights
+/(vendor|system/vendor)/bin/hw/android\.hardware\.lights-service\.transsion             u:object_r:hal_light_default_exec:s0
+
 # NFC
 /dev/pn54x                                                                                  u:object_r:nfc_device:s0
 /dev/pn553                                                                                  u:object_r:nfc_device:s0
