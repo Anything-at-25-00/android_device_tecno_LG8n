@@ -2,19 +2,19 @@
   {
     "remote"      : "github",
     "repository"  : "Anything-at-25-00/android_vendor_tecno_LG8n",
-    "branch"      : "fourteen",
+    "branch"      : "fifteen",
     "target_path" : "vendor/tecno/LG8n"
   },
   {
     "remote"      : "github",
     "repository"  : "Anything-at-25-00/android_vendor_tecno_mt6789-common",
-    "branch"      : "fourteen",
+    "branch"      : "fifteen",
     "target_path" : "vendor/tecno/mt6789-common"
   },
   {
     "remote"      : "github",
     "repository"  : "Anything-at-25-00/android_device_tecno_mt6789-common",
-    "branch"      : "fourteen",
+    "branch"      : "fifteen",
     "target_path" : "device/tecno/mt6789-common"
   },
   {
