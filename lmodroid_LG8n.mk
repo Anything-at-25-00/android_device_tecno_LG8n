@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/tecno/LG8n/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 BOARD_VENDOR := TECNO
-PRODUCT_NAME := lineage_LG8n
+PRODUCT_NAME := lmodroid_LG8n
 PRODUCT_DEVICE := LG8n
 PRODUCT_MANUFACTURER := TECNO
 PRODUCT_BRAND := TECNO
