@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
 	FrameworksResOverlayLG8n \
     SettingsProviderOverlayLG8n \
     SystemUIOverlayLG8n
+    $(DEVICE_PATH)/overlay-lineage
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
