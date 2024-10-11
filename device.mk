@@ -16,11 +16,13 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay-lineage
+
 PRODUCT_PACKAGES += \
 	FrameworksResOverlayLG8n \
     SettingsProviderOverlayLG8n \
-    SystemUIOverlayLG8n \
-    $(DEVICE_PATH)/overlay-lineage
+    SystemUIOverlayLG8n
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
