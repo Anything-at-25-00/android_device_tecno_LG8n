@@ -1,5 +1,11 @@
 ## lg8n package version: LG8n-H891OPAeAf-S-GL-240531V2678, unless stated otherwise
 
+# AAL
+vendor/lib/mt6789/libaalservice.so
+vendor/lib/libaal_cust.so
+vendor/lib64/mt6789/libaalservice.so
+vendor/lib64/libaal_cust.so
+
 # Audio
 vendor/bin/audiocmdservice_atci
 vendor/etc/init/audiocmdservice_atci.rc
