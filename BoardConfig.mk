@@ -46,6 +46,7 @@ TARGET_OTA_ASSERT_DEVICE := LG8n,TECNO-LG8n,lg8n
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/properties/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/properties/phoneinfo.prop
 
 # Workaround to make lineage's soong generator work
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
