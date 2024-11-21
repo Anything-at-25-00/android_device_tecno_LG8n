@@ -1,0 +1,8 @@
+# Infinity Stuffs
+ro.infinity.soc=Mediatek Helio G99
+ro.infinity.battery=6000 mAh
+ro.infinity.display=1080 x 2400, 90 Hz
+ro.infinity.camera=50 MP + 8 MP
+
+# Infinity Device Name
+ro.product.marketname= Tecno Pova 4 Pro
