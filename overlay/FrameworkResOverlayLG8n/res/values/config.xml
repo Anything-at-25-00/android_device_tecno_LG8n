@@ -186,4 +186,6 @@
      <!-- Doze Configs -->
      <integer name="config_screenBrightnessDoze">5</integer>
      <bool name="config_dozeAfterScreenOff">true</bool>
+
+     <string name="config_stockFingerprint" translatable="false">TECNO/LG8n-GL/TECNO-LG8n:12/SP1A.210812.016/240531V2678:user/release-keys</string>
 </resources>
