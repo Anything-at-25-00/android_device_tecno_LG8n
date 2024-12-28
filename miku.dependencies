@@ -20,25 +20,25 @@
   {
     "remote"      : "github",
     "repository"  : "LineageOS/android_hardware_mediatek",
-    "branch"      : "lineage-21",
+    "branch"      : "miku-21",
     "target_path" : "hardware/mediatek"
   },
   {
     "remote"      : "github",
     "repository"  : "Anything-at-25-00/device_tecno_lg8n_kernel",
-    "branch"      : "lineage-21",
+    "branch"      : "miku-21",
     "target_path" : "device/tecno/LG8n-kernel"
   },
   {
     "remote"      : "github",
     "repository"  : "LineageOS/android_device_mediatek_sepolicy_vndr",
-    "branch"      : "lineage-21",
+    "branch"      : "miku-21",
     "target_path" : "device/mediatek/sepolicy_vndr"
   },
   {
     "remote"      : "github",
     "repository"  : "Anything-at-25-00/hardware_transsion",
-    "branch"      : "lineage-20.0",
+    "branch"      : "miku-20.0",
     "target_path" : "hardware/transsion"
   }
 ]
