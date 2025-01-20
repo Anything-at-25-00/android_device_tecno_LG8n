@@ -20,7 +20,7 @@
   {
     "remote"      : "github",
     "repository"  : "LineageOS/android_hardware_mediatek",
-    "branch"      : "lineage-21",
+    "branch"      : "lineage-22.1",
     "target_path" : "hardware/mediatek"
   },
   {
@@ -32,7 +32,7 @@
   {
     "remote"      : "github",
     "repository"  : "LineageOS/android_device_mediatek_sepolicy_vndr",
-    "branch"      : "lineage-21",
+    "branch"      : "fifteen",
     "target_path" : "device/mediatek/sepolicy_vndr"
   },
   {
