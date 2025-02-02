@@ -29,15 +29,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Infinity X Stuffs
 
-INFINITY_MAINTAINER := "Ren (Shirayuki39/Shirayuki428)"
+INFINITY_MAINTAINER := Shirayuki39
 TARGET_SUPPORTS_BLUR := true
 WITH_GAPPS := true
 TARGET_BUILD_GOOGLE_TELEPHONY := true
-
-PRODUCT_SYSTEM_PROPERTIES += \
-   ro.infinity.soc=Helio G99 \
-   ro.infinity.battery=6000 mAh \
-   ro.infinity.display=1080x2400, 90 Hz \
-   ro.infinity.camera=50MP + 8MP \
-   ro.product.marketname=TECNO POVA 4 Pro
-
