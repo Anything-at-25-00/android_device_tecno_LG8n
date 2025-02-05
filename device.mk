@@ -18,6 +18,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 PRODUCT_PACKAGES += \
 	FrameworksResOverlayLG8n \
+    SettingsResOverlayEvoLG8n \
     SettingsProviderOverlayLG8n \
     SystemUIOverlayLG8n
 
