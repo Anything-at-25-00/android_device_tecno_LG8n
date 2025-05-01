@@ -8,7 +8,7 @@
 include device/tecno/mt6789-common/BoardConfigCommon.mk
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := lg8n
+TARGET_BOOTLOADER_BOARD_NAME := yukihana
 
 # Boot image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
@@ -42,7 +42,7 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(KERNEL_PATH)/vendor_dl
 BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(KERNEL_PATH)/vendor_dlkm/*.ko)
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := LG8n,TECNO-LG8n,lg8n
+TARGET_OTA_ASSERT_DEVICE := LG8n,TECNO-LG8n,lg8n,yukihana
 
 # Workaround to make lineage's soong generator work
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
