@@ -27,4 +27,16 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=LG8n \
     BuildFingerprint=TECNO/LG8n-GL/TECNO-LG8n:12/SP1A.210812.016/240531V1800:user/release-keys
 
+# To include Gapps 
+WITH_GMS := true
 
+# To Build Google(Dailer, Message, Phone) and BCR
+WITH_GMS_COMMS_SUITE := true
+
+# To Add cinematic wallpaer support (only supported in gapps build not in vanilla remove this flag for vanilla builds)
+TARGET_SUPPORTS_WALLEFFECT := true
+
+#Some more GMS Flag
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_STOCK_AICORE := true
