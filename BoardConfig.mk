@@ -44,6 +44,9 @@ BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(KERNEL_PATH)/vendor_dlkm/*.ko)
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := LG8n,TECNO-LG8n,lg8n
 
+# Recovery
+TARGET_RECOVERY_UI_MARGIN_HEIGHT := 126
+
 # Workaround to make yaap's soong generator work
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
 
