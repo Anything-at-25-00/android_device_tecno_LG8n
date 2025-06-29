@@ -4,7 +4,7 @@
 vendor/lib64/libaal_cust.so
 
 # Audio
-vendor/lib/hw/awinic.audio.effect.so
+vendor/lib/hw/awinic.audio.effect.so;FIX_SONAME
 
 # Audio Configs
 vendor/etc/AudioLog_dynamic.xml
