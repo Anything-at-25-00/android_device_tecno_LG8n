@@ -13,6 +13,12 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
+namespace_imports = [
+    'hardware/mediatek',
+    'hardware/transsion',
+    'vendor/tecno/mt6789-common',
+]
+
 blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
@@ -20,6 +26,7 @@ module = ExtractUtilsModule(
     'LG8n',
     'tecno',
     blob_fixups=blob_fixups,
+    namespace_imports=namespace_imports,
 )
 
 if __name__ == '__main__':
