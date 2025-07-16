@@ -13,20 +13,20 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
+namespace_imports = [
+    'hardware/mediatek',
+    'hardware/transsion',
+    'vendor/tecno/mt6789-common',
+]
+
 blob_fixups: blob_fixups_user_type = {
-    'vendor/lib*/hw/audio.primary.mediatek.so': blob_fixup()
-        .replace_needed('libalsautils.so', 'libalsautils-v32.so')
-        .replace_needed('libutils.so', 'libutils-v32.so')
-        .replace_needed('libhidlbase.so', 'libhidlbase-v32.so')
-        .replace_needed('libbinder.so', 'libbinder-v32.so')
-        .add_needed('libstagefright_foundation-v33.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
     'LG8n',
     'tecno',
     blob_fixups=blob_fixups,
-    check_elf=False,
+    namespace_imports=namespace_imports,
 )
 
 if __name__ == '__main__':
