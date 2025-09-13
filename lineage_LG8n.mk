@@ -60,3 +60,7 @@ AXION_CPU_DISPLAY := 6-7
 
 # Enable activity open override fix for low-end devices or devices affected by activity open/exit freezing issue 
 PERF_ANIM_OVERRIDE := true
+
+# CPU governor support
+PERF_GOV_SUPPORTED := true
+PERF_DEFAULT_GOV := schedutil
