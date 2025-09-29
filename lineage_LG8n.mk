@@ -27,7 +27,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=LG8n \
     RisingMaintainer=Shirayuki39 \
     RisingChipset="Helio G99" \
-    BuildFingerprint=TECNO/LG8n-GL/TECNO-LG8n:12/SP1A.210812.016/240531V1800:user/release-keys
+    BuildFingerprint=TECNO/LG8n-GL/TECNO-LG8n:12/SP1A.210812.016/240531V2678:user/release-keys
 
 TARGET_ENABLE_BLUR := true
 PRODUCT_NO_CAMERA := false
