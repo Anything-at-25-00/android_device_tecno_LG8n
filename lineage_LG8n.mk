@@ -25,7 +25,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=LG8n \
-    BuildFingerprint=TECNO/LG8n-GL/TECNO-LG8n:12/SP1A.210812.016/240531V1800:user/release-keys
+    BuildFingerprint=TECNO/LG8n-GL/TECNO-LG8n:12/SP1A.210812.016/240531V2678:user/release-keys
 
 # AxionAOSP Flags
 AXION_CAMERA_REAR_INFO := 50
