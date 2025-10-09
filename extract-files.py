@@ -15,7 +15,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'hardware/mediatek',
-    'hardware/transsion',
+    'hardware/millennium',
     'vendor/tecno/mt6789-common',
 ]
 
