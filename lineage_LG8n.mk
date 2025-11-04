@@ -34,6 +34,7 @@ AXION_MAINTAINER := Shirayuki39
 AXION_PROCESSOR := Helio_G99
 PRODUCT_NO_CAMERA := false
 BYPASS_CHARGE_SUPPORTED := false
+TARGET_USES_SLMK := false
 
 # Define small and big core groups
 AXION_CPU_SMALL_CORES := 0,1,2,3,4,5
