@@ -11,9 +11,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/tecno/LG8n/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
-
 BOARD_VENDOR := TECNO
 PRODUCT_NAME := yaap_LG8n
 PRODUCT_DEVICE := LG8n
