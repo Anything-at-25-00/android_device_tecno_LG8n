@@ -30,7 +30,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.transsion
+    android.hardware.vibrator-service.millennium
 
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/tecno/mt6789-common/common.mk)
